@@ -1,0 +1,6 @@
+arcade_shell_haiku
+arcade_shell_haiku.rsrc
+*.o
+dist/
+.DS_Store
+*~

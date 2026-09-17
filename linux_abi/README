@@ -1,0 +1,20 @@
+Linux ABI for the Arcade kernel on Haiku
+========================================
+
+`arcade_app.x` is a Linux ELF. Haiku runs it through:
+
+  sys_compat       kernel driver → /dev/misc/sys_compat
+  sys_compat_run   userspace loader
+
+These binaries are Haiku-native (not Linux). They also ship with AILang CAD
+for Haiku. The installer reuses them if CAD is already installed.
+
+If this folder has `sys_compat` and `sys_compat_run`, `install.sh` copies
+them. If it is empty, install CAD Haiku first, or copy the pair here from a
+machine that already has them:
+
+  /boot/system/non-packaged/add-ons/kernel/drivers/bin/sys_compat
+  /boot/home/sys_compat_run
+
+`pack.sh` (run next to a live Haiku tree or after those files exist)
+vendors them into the click-and-run drop.

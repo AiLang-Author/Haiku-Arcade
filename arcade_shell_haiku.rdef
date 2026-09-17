@@ -1,0 +1,3 @@
+resource app_signature "application/x-vnd.Ailang-Arcade";
+resource app_flags B_SINGLE_LAUNCH;
+resource(1, "SYS:NAME") "NOWAY HOME";
