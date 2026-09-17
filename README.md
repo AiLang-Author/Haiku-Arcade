@@ -133,4 +133,21 @@ Without the driver, the kernel cannot run. The installer uses, in order:
 
 If you already run AILang CAD on the same Haiku box, you already have it.
 
+## Screenshots
+
+Same playfield as Linux (kernel owns the pixels). Shots live in Arcade
+`noway-home/` and are linked here.
+
+**Attract**
+
+![Title](https://raw.githubusercontent.com/AiLang-Author/ARCADE/main/noway-home/Intro.png)
+
+**Stage**
+
+![Play](https://raw.githubusercontent.com/AiLang-Author/ARCADE/main/noway-home/gameplay.png)
+
+**Queen**
+
+![Queen](https://raw.githubusercontent.com/AiLang-Author/ARCADE/main/noway-home/bossbattle.png)
+
 Copyright © 2026 Sean Collins, 2 Paws Machine and Engineering. SCSL v1.0.
